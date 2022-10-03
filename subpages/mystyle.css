@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(32, 32, 32);
+    margin:100px;
+}
+h1 {
+    color: white;
+    font-size:64px;
+}
+p {
+    color:whitesmoke;
+    font-family: "Lucioda Console", monospace;
+    font-size:24px;
+}
+h2 {
+    margin-left:250px;
+    margin-right:250px;
+    padding: 100px;
+    background-color: rgb(8, 8, 8);
+    color:whitesmoke;
+    font-size:48px;
+}
