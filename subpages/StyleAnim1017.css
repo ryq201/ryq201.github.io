@@ -1,0 +1,60 @@
+
+.title1 {
+	font-family: "Cairo";
+  font-size: 32px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 40vh;
+	letter-spacing: 1px;
+	line-height:2
+}
+
+.hi {
+  text-align: center;
+  font-size: 32px;
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+.bye{
+  position: relative;
+  font-size: 32px;
+/*  right: 11px;*/
+  bottom: 68.5px;
+  text-align: center;
+  animation-name: slidein-reverse;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+  
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      -webkit-animation-delay: 5s;
+    }
+  
+    to {
+      margin-left: 0%;
+
+    }
+}
+@keyframes slidein-reverse {
+  to {
+    direction: normal;
+
+  }
+  from {
+    margin-right: 0%;
+
+  }
+
+
+}
