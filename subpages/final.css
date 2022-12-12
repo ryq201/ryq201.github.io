@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+}
+
+.center {
+    text-align: center;
+}
+
+.brrrrt{
+    padding: 3vw;
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+    background-color: red;
+    border-radius:128px;
+}
+.brrrrt:active{
+    background-color:rgb(160, 0, 0);
+}
+.a10mag{
+    font-weight:bold;
+}
