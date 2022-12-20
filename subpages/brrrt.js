@@ -11,6 +11,8 @@ const fact6 = document.querySelector("#a10mag");
 const shots = document.getElementById("firing");
 const spool = document.getElementById("spool");
 const cooldown = document.getElementById("end");
+const brtheader = document.querySelector(".headerBrt");
+const headerMv = document.querySelector(".BRRRRRRT")
 
 let elapsedTime = 0;
 let startTime = 0;
@@ -42,6 +44,7 @@ class clickAndHold { /*class from this tutorial: https://www.youtube.com/watch?v
     }
 
     onHold(){
+        brtheader.classList.toggle("BRRRRRRT");
         this.isHeld = true;
         spool.play();
         this.activeHoldTimeoutID = setTimeout(() => {
@@ -54,6 +57,7 @@ class clickAndHold { /*class from this tutorial: https://www.youtube.com/watch?v
         
     }
     onHoldEnd (){
+        brtheader.classList.toggle("BRRRRRRT");
         this.isHeld = false;
         shots.pause();
         shots.currentTime = 0;
