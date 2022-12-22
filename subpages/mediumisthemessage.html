@@ -19,9 +19,9 @@
 <div class="flex-container">
 	<div class="container">
 		<div class="float-child">
-			<img src="Pictures/frame1.JPG" class="image">
+			<img src="../images/frame1.JPG" class="image">
 			<div class="overlay">
-		  		<input onclick="changeImage();" type="image" src="Pictures/frame2.JPG" id="changeThis" class="image">
+		  		<input onclick="changeImage();" type="image" src="../images/frame2.JPG" id="changeThis" class="image">
 			</div>
 		</div>
 	</div>
@@ -30,7 +30,7 @@
 <script>
     function changeImage(){
         var img = document.getElementById("changeThis");
-        img.src="Pictures/frame3.JPG";
+        img.src="../images/frame3.JPG";
         return false;
     }
 </script>
