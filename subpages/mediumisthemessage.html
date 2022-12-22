@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>The Medium is the Message</title>
+	<style type=”text/css”></style>
+		<link rel="stylesheet" href="StyleMedium.css">
+
+</head>
+<br>
+<body>
+	<header>
+		<h1>The <i>Medium...</i></h1>
+	</header>
+<br/>
+
+	<br>
+	<br>
+<div class="flex-container">
+	<div class="container">
+		<div class="float-child">
+			<img src="Pictures/frame1.JPG" class="image">
+			<div class="overlay">
+		  		<input onclick="changeImage();" type="image" src="Pictures/frame2.JPG" id="changeThis" class="image">
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+    function changeImage(){
+        var img = document.getElementById("changeThis");
+        img.src="Pictures/frame3.JPG";
+        return false;
+    }
+</script>
+<h1>
+    ...is the <i>Message</i>
+</h1>
+<br>
+<br>
+	<footer></footer>
+
+</body>
+</html>
